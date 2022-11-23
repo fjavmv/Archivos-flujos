@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d005ab45-4e1f-4267-b7e8-45aa8c70ba9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejemplo-File-01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejemplofile2/Filtro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejemplofile2/MainFile2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/escribir/MainEscribir.java" afterDir="false" />
+    <list default="true" id="d005ab45-4e1f-4267-b7e8-45aa8c70ba9d" name="Changes" comment="Ejemplos archivos y flujos">
+      <change afterPath="$PROJECT_DIR$/src/files/DosWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/MainRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/MainWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/OperacionesMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/OperacionesPrimitivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +48,20 @@
       <recent name="ejemplofile2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainEscribir">
+  <component name="RunManager" selected="Application.OperacionesMain">
+    <configuration name="DosWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.DosWriter" />
+      <module name="ejemplo-File-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainEscribir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="escribir.MainEscribir" />
       <module name="ejemplo-File-01" />
@@ -67,19 +75,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainFile" />
+    <configuration name="MainRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.MainRead" />
       <module name="ejemplo-File-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainFile2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejemplofile2.MainFile2" />
+    <configuration name="MainWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.MainWriter" />
       <module name="ejemplo-File-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ejemplofile2.*" />
+          <option name="PATTERN" value="files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperacionesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.OperacionesMain" />
+      <module name="ejemplo-File-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,9 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OperacionesMain" />
+        <item itemvalue="Application.DosWriter" />
+        <item itemvalue="Application.MainRead" />
+        <item itemvalue="Application.MainWriter" />
         <item itemvalue="Application.MainEscribir" />
-        <item itemvalue="Application.MainFile2" />
-        <item itemvalue="Application.MainFile" />
       </list>
     </recent_temporary>
   </component>
@@ -106,8 +135,17 @@
       <workItem from="1668721393504" duration="1437000" />
       <workItem from="1668780947813" duration="4168000" />
       <workItem from="1668793434216" duration="695000" />
-      <workItem from="1669095158478" duration="3496000" />
+      <workItem from="1669095158478" duration="4154000" />
+      <workItem from="1669187133939" duration="6570000" />
     </task>
+    <task id="LOCAL-00001" summary="Ejemplos archivos y flujos">
+      <created>1669135815687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669135815687</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +161,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ejemplos archivos y flujos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejemplos archivos y flujos" />
   </component>
 </project>
