@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d005ab45-4e1f-4267-b7e8-45aa8c70ba9d" name="Changes" comment="Ejemplos archivos y flujos leer archivos">
-      <change afterPath="$PROJECT_DIR$/src/bufferedreader/BufferedUno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bufferedreader/FinDeArchivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exitenciaDeArchivo/RevisarExistencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scanner/FinalDeDocumento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scanner/NextInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scanner/PruebaScanner.java" afterDir="false" />
+    <list default="true" id="d005ab45-4e1f-4267-b7e8-45aa8c70ba9d" name="Changes" comment="Ejemplos scanner, buffereader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bufferedreader/BufferedUno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bufferedreader/BufferedUno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scanner/NextInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scanner/NextInt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
       <recent name="ejemplofile2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FinalDeDocumento">
+  <component name="RunManager" selected="Application.BufferedUno">
     <configuration name="BufferedUno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bufferedreader.BufferedUno" />
       <module name="ejemplo-File-01" />
@@ -117,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BufferedUno" />
+        <item itemvalue="Application.NextInt" />
         <item itemvalue="Application.FinalDeDocumento" />
         <item itemvalue="Application.FinDeArchivo" />
-        <item itemvalue="Application.BufferedUno" />
         <item itemvalue="Application.RevisarExistencia" />
-        <item itemvalue="Application.NextInt" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +134,7 @@
       <workItem from="1668793434216" duration="695000" />
       <workItem from="1669095158478" duration="4154000" />
       <workItem from="1669187133939" duration="7893000" />
-      <workItem from="1669245639139" duration="9365000" />
+      <workItem from="1669245639139" duration="10703000" />
     </task>
     <task id="LOCAL-00001" summary="Ejemplos archivos y flujos">
       <created>1669135815687</created>
@@ -154,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669221747559</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ejemplos scanner, buffereader">
+      <created>1669308125255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669308125255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ejemplos archivos y flujos" />
     <MESSAGE value="Ejemplos archivos y flujos leer archivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejemplos archivos y flujos leer archivos" />
+    <MESSAGE value="Ejemplos scanner, buffereader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejemplos scanner, buffereader" />
   </component>
 </project>

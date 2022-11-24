@@ -10,7 +10,7 @@ public class NextInt {
         try {
             inputStream = new Scanner(new FileInputStream("dos.txt"));
         } catch (FileNotFoundException e) {
-            System.out.println("El archivo documento.txt no fue encontrado.");
+            System.out.println("El archivo dos.txt no fue encontrado.");
             System.out.println("o no puede abrirse.");
             System.exit(0);
         }
