@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d005ab45-4e1f-4267-b7e8-45aa8c70ba9d" name="Changes" comment="Ejemplos archivos y flujos">
-      <change afterPath="$PROJECT_DIR$/src/files/DosWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/MainRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/MainWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/OperacionesMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/OperacionesPrimitivos.java" afterDir="false" />
+    <list default="true" id="d005ab45-4e1f-4267-b7e8-45aa8c70ba9d" name="Changes" comment="Ejemplos archivos y flujos leer archivos">
+      <change afterPath="$PROJECT_DIR$/src/bufferedreader/BufferedUno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bufferedreader/FinDeArchivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exitenciaDeArchivo/RevisarExistencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scanner/FinalDeDocumento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scanner/NextInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scanner/PruebaScanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +49,13 @@
       <recent name="ejemplofile2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OperacionesMain">
-    <configuration name="DosWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="files.DosWriter" />
+  <component name="RunManager" selected="Application.FinalDeDocumento">
+    <configuration name="BufferedUno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bufferedreader.BufferedUno" />
       <module name="ejemplo-File-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="files.*" />
+          <option name="PATTERN" value="bufferedreader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEscribir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="escribir.MainEscribir" />
+    <configuration name="FinDeArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bufferedreader.FinDeArchivo" />
       <module name="ejemplo-File-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="escribir.*" />
+          <option name="PATTERN" value="bufferedreader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="files.MainRead" />
+    <configuration name="FinalDeDocumento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scanner.FinalDeDocumento" />
       <module name="ejemplo-File-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="files.*" />
+          <option name="PATTERN" value="scanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="files.MainWriter" />
+    <configuration name="NextInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scanner.NextInt" />
       <module name="ejemplo-File-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="files.*" />
+          <option name="PATTERN" value="scanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperacionesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="files.OperacionesMain" />
+    <configuration name="RevisarExistencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exitenciaDeArchivo.RevisarExistencia" />
       <module name="ejemplo-File-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="files.*" />
+          <option name="PATTERN" value="exitenciaDeArchivo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OperacionesMain" />
-        <item itemvalue="Application.DosWriter" />
-        <item itemvalue="Application.MainRead" />
-        <item itemvalue="Application.MainWriter" />
-        <item itemvalue="Application.MainEscribir" />
+        <item itemvalue="Application.FinalDeDocumento" />
+        <item itemvalue="Application.FinDeArchivo" />
+        <item itemvalue="Application.BufferedUno" />
+        <item itemvalue="Application.RevisarExistencia" />
+        <item itemvalue="Application.NextInt" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +137,8 @@
       <workItem from="1668780947813" duration="4168000" />
       <workItem from="1668793434216" duration="695000" />
       <workItem from="1669095158478" duration="4154000" />
-      <workItem from="1669187133939" duration="6570000" />
+      <workItem from="1669187133939" duration="7893000" />
+      <workItem from="1669245639139" duration="9365000" />
     </task>
     <task id="LOCAL-00001" summary="Ejemplos archivos y flujos">
       <created>1669135815687</created>
@@ -145,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669135815687</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ejemplos archivos y flujos leer archivos">
+      <created>1669221747559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669221747559</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ejemplos archivos y flujos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejemplos archivos y flujos" />
+    <MESSAGE value="Ejemplos archivos y flujos leer archivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejemplos archivos y flujos leer archivos" />
   </component>
 </project>
