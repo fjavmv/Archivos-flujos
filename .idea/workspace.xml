@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d005ab45-4e1f-4267-b7e8-45aa8c70ba9d" name="Changes" comment="Ejemplos scanner, buffereader">
+    <list default="true" id="d005ab45-4e1f-4267-b7e8-45aa8c70ba9d" name="Changes" comment="Ejemplos scanner, buffereader, flujos de entrada y salida">
+      <change afterPath="$PROJECT_DIR$/src/bufferedreader/DatosSecuenciales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bufferedreader/EscribirDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bufferedreader/LeerDoc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bufferedreader/BufferedUno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bufferedreader/BufferedUno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scanner/NextInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scanner/NextInt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <recent name="ejemplofile2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BufferedUno">
+  <component name="RunManager" selected="Application.DatosSecuenciales">
     <configuration name="BufferedUno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bufferedreader.BufferedUno" />
       <module name="ejemplo-File-01" />
@@ -59,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinDeArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bufferedreader.FinDeArchivo" />
+    <configuration name="DatosSecuenciales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bufferedreader.DatosSecuenciales" />
       <module name="ejemplo-File-01" />
       <extension name="coverage">
         <pattern>
@@ -72,12 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalDeDocumento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scanner.FinalDeDocumento" />
+    <configuration name="EscribirDoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bufferedreader.EscribirDoc" />
       <module name="ejemplo-File-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scanner.*" />
+          <option name="PATTERN" value="bufferedreader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeerDoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bufferedreader.LeerDoc" />
+      <module name="ejemplo-File-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bufferedreader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,26 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevisarExistencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exitenciaDeArchivo.RevisarExistencia" />
-      <module name="ejemplo-File-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exitenciaDeArchivo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DatosSecuenciales" />
+        <item itemvalue="Application.LeerDoc" />
+        <item itemvalue="Application.EscribirDoc" />
         <item itemvalue="Application.BufferedUno" />
         <item itemvalue="Application.NextInt" />
-        <item itemvalue="Application.FinalDeDocumento" />
-        <item itemvalue="Application.FinDeArchivo" />
-        <item itemvalue="Application.RevisarExistencia" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +136,9 @@
       <workItem from="1669095158478" duration="4154000" />
       <workItem from="1669187133939" duration="7893000" />
       <workItem from="1669245639139" duration="10703000" />
+      <workItem from="1669327812791" duration="5036000" />
+      <workItem from="1669389044203" duration="1174000" />
+      <workItem from="1669393110069" duration="2561000" />
     </task>
     <task id="LOCAL-00001" summary="Ejemplos archivos y flujos">
       <created>1669135815687</created>
@@ -157,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669308125255</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ejemplos scanner, buffereader, flujos de entrada y salida">
+      <created>1669327864266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669327864266</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +189,7 @@
     <MESSAGE value="Ejemplos archivos y flujos" />
     <MESSAGE value="Ejemplos archivos y flujos leer archivos" />
     <MESSAGE value="Ejemplos scanner, buffereader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejemplos scanner, buffereader" />
+    <MESSAGE value="Ejemplos scanner, buffereader, flujos de entrada y salida" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejemplos scanner, buffereader, flujos de entrada y salida" />
   </component>
 </project>
